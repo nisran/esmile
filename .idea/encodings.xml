@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/esmile-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/esmile-message/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/esmile-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/esmile-starter/esmile-admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/esmile-starter/esmile-wms/src/main/java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

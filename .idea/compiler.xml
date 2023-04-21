@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="esmile-admin" />
+        <module name="esmile-security" />
+        <module name="esmile-message" />
+        <module name="esmile-wms" />
+        <module name="esmile-common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="esmile-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="esmile-admin" options="-parameters" />
+      <module name="esmile-common" options="-parameters" />
+      <module name="esmile-message" options="-parameters" />
+      <module name="esmile-security" options="-parameters" />
+      <module name="esmile-starter" options="" />
+      <module name="esmile-web" options="-parameters" />
+      <module name="esmile-wms" options="-parameters" />
+    </option>
+  </component>
+</project>

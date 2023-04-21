@@ -1,16 +1,17 @@
 package com.esmile.common.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.esmile.common.base.PagedResult;
 import com.esmile.common.constant.domain.UserConstant;
-import com.esmile.common.domain.Role;
 import com.esmile.common.domain.User;
-
-import java.util.List;
 
 public interface UserService extends IService<User>, UserConstant {
 
-    User getByName(String userName);
+    User getUserById(Integer userId);
+    PagedResult<User> getUserList(Long pageNo, Long pageSize);
+    User saveUser(User user);
+    User updateUser(User user);
+    boolean deleteUser(Integer userId);
 
-    public List<Role> getRolesByUserId(Long userId);
 
 }

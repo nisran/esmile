@@ -1,12 +1,11 @@
 package com.esmile.common.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.esmile.common.domain.Role;
 import com.esmile.common.domain.User;
+import org.springframework.stereotype.Repository;
 
-import java.util.List;
-
+@Repository
 public interface UserMapper extends BaseMapper<User> {
-    List<Role> getRolesByUserId(Long userId);
+    // List<Role> getRolesByUserId(Long userId);
 }
 
